@@ -1,0 +1,78 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:'Poppins',sans-serif;
+}
+
+.nav-bar{
+	background: #000;
+	color:#fff;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0.7rem;
+}
+
+.logo{
+	font-family:cursive;
+}
+
+.color{
+	color:#e3ed00;
+}
+
+.navlists{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.navlists li{
+	list-style:none;
+}
+
+.navlists li a{
+	text-decoration:none;
+	color:white;
+	padding:1rem;
+
+}
+
+.navlists li a:hover{
+	background:#e3ed00;
+	transition:background 0.2s linear;
+} 
+
+.header{
+	position: relative;
+	width:100%;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	overflow:hidden;
+}
+
+.header .text{
+	text-align:center;
+	font-size:5rem;
+	z-index:1;
+	/*font-family:; if you want to change its font*/
+}
+
+.video{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7);
+	width:100%;
+	height:100vh;
+}
